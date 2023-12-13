@@ -1,9 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    //printing 4 by 5 stars in rectangle shape
-    for(int i=0; i<=4; i++){
-        for(int j = 0; j<=5; j++){
+    int m,n;
+    cout<<"Enter 2 numbers\n";
+    cin>>m>>n;
+    //make m by n rectangle
+    for(int i=0; i<m; i++){
+        for(int j = 0; j<n; j++){
             cout<<" * ";
         }
         cout<<endl;
