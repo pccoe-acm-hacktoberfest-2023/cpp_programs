@@ -37,5 +37,5 @@ int main()
     ABC obj2;      // Default constructor invoked
     ABC obj3(obj1); // Copy constructor invoked
 
-    obj2 = obj1;    // Copy
+     obj2 = obj1;    // Copy
 }
